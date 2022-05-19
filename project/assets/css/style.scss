@@ -1,0 +1,107 @@
+ul{
+   padding: 0px;
+   margin: 0px;
+   list-style-type: none;
+}
+p{
+   padding: 0px;
+   margin: 0px;
+}
+h1{
+   text-align: center;
+}
+li{
+   border: 1px solid black;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+}
+main {
+   width: 100%;
+   text-align: center;
+   list-style-type: none;
+}
+.timelist {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: inherit;
+}
+.blocks {
+   border:3px solid black;
+   width: 100%;
+}
+.time1{
+   width: 700px;
+}
+.days1{
+   width: 200px;
+}
+
+.days {
+   width: 200px;
+   height: 300px;
+   writing-mode: tb-rl;
+   transform:rotate(180deg);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.time {
+   width: 700px;
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+.timelist .time .list{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.group_n1.list {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.group {
+
+		&__l1 {
+		}
+
+		&__l2 {
+		}
+
+		&__l3 {
+		}
+}
+.blocks1{
+   height: 300px;
+}
+.blocks1 .list {
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+		&__item {
+         display: flex;
+         justify-content: space-between;
+		}
+}
+.first {
+
+		&__part {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+		}
+}
+
+
